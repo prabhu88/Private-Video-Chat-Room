@@ -13,7 +13,7 @@ To get started with the Private Video Chat Room project, follow these steps:
 
 1. Clone the Repository:
    ```
-     git clone https://github.com/yourusername/private-video-chat-room.git
+     git clone https://github.com/prabhu88/Private-Video-Chat-Room.git
    ```
 2. Navigate to the Project Directory:
   ```
@@ -31,34 +31,33 @@ To get started with the Private Video Chat Room project, follow these steps:
 Open Your Browser:
 Navigate to http://localhost:3000 to access the application.
 
-Usage
-Create a Room:
+## Usage
+1. Create a Room:
+   * Enter a unique room name and click "Create Room."
+   * Share the room URL with participants.
 
-Enter a unique room name and click "Create Room."
-Share the room URL with participants.
-Join a Room:
+2. Join a Room:
+   * Enter the room URL or name to join an existing room.
+   * Click "Join Room" to connect and start the video chat.
 
-Enter the room URL or name to join an existing room.
-Click "Join Room" to connect and start the video chat.
-Video Controls:
+3. Video Controls:
+   * Use the provided buttons to mute/unmute your microphone or turn on/off your camera.
 
-Use the provided buttons to mute/unmute your microphone or turn on/off your camera.
-Technologies Used
-JavaScript: For client-side and server-side logic.
-Express: To handle HTTP requests and serve the application.
-Socket.io: For real-time communication and signaling.
-WebRTC: For peer-to-peer video and audio streaming.
+## Technologies Used
+   * JavaScript: For client-side and server-side logic.
+   * Express: To handle HTTP requests and serve the application.
+   * Socket.io: For real-time communication and signaling.
+   * WebRTC: For peer-to-peer video and audio streaming.
+     
 Contributing
 Contributions are welcome! If you'd like to contribute to this project, please fork the repository and submit a pull request with your proposed changes.
 
-Fork the Repository:
-Click on the "Fork" button at the top right of the repository page.
+## Fork the Repository:
+   Click on the "Fork" button at the top right of the repository page.
 
-Create a Branch:
-
-bash
-Copy code
-git checkout -b feature/your-feature
+## Create a Branch:
+```
+   git checkout -b feature/your-feature
 Make Your Changes:
 
 Implement your feature or fix the issue.
