@@ -10,8 +10,8 @@ app.use(express.json({limit:'200mb',extended:true}))
 app.use(express.urlencoded({limit:'200mb',extended:true}))
 
 const serverOption = {
-    key: fs.readFileSync('key.pem'),
-    cert: fs.readFileSync('cert.pem')
+    key: fs.readFileSync('key.pem'), // Replace domain/local/ip SSL key.pem 
+    cert: fs.readFileSync('cert.pem') // Replace domain/local/ip SSL cert.pem
 }
 const server = https.createServer(serverOption,app)
 const io = socketIO(server,{
