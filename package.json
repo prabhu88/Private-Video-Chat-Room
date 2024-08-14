@@ -1,0 +1,28 @@
+{
+  "name": "private_video_chat_room",
+  "version": "1.0.0",
+  "description": "Private Video Chat Room is a real-time, secure video chat application built with JavaScript, Express, and Socket.io. This application allows users to create private video chat rooms, where they can connect with others through video calls. The core functionality is achieved through WebRTC for peer-to-peer communication, while Socket.io is used for signaling and room management. This project aims to provide a seamless and interactive video communication experience with a focus on privacy and ease of use.",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prabhu88/Private-Video-Chat-Room.git"
+  },
+  "keywords": [],
+  "author": "s.prabhu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prabhu88/Private-Video-Chat-Room/issues"
+  },
+  "homepage": "https://github.com/prabhu88/Private-Video-Chat-Room#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "https": "^1.0.0",
+    "nodemon": "^3.1.4",
+    "socket.io": "^4.7.5"
+  }
+}
